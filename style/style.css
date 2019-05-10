@@ -1,0 +1,33 @@
+.side_menu_container{
+  padding-top: 40px;
+  padding-left: 25px;
+}
+
+.no-user-alert{
+  color: red
+}
+
+#add-match{
+  position: absolute;
+  bottom: 15px;
+}
+
+.container{
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+.red {
+  color: red;  
+  text-shadow: 0 0 2px white;
+}
+
+.black {
+  color: black;
+  text-shadow: 0 0 2px white;
+}
+
+.blue {
+  color: blue;
+  text-shadow: 0 0 2px white;
+}
