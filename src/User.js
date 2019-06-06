@@ -11,6 +11,8 @@ class User {
   }
 
   render() {
+    document.getElementsByClassName('background-container')[0].style.display = "none"
+    document.getElementsByClassName('side_menu_container')[0].style.display = "inherit"
     let dispContainer = document.querySelector('.display-container')
     dispContainer.innerHTML = ''
     document.querySelector('#user-name').innerText = this.name
