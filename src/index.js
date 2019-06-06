@@ -102,15 +102,16 @@ function fetchUsers(teamData, currentUser) {
   let userContainer = document.querySelector('.user_container')
   let teamMatesSelect = document.createElement('div')
   teamMatesSelect.id = 'teamMateForm'
-  teamMatesSelect.innerHTML += `<div class="container">
-  <br>
-  <form id='teamMate'>
-  <h3>Pick a Team Mate:</h3>
-  <input class="form-control form-control-sm" id="myInput" type="text" placeholder="Search..">
-  <br>
-  <input class="btn-sm btn-outline-dark my-2 my-sm-0" type="submit">
-  </form>
-</div>`
+  teamMatesSelect.innerHTML += 
+  `<div class="container">
+    <br>
+    <form id='teamMate'>
+    <h3>Pick a Team Mate:</h3>
+    <input class="form-control form-control-sm" id="myInput" type="text" placeholder="Search..">
+    <br>
+    <input class="btn-sm btn-outline-dark my-2 my-sm-0" type="submit">
+    </form>
+  </div>`
   teamMatesSelect.style.display = 'block'
   userContainer.append(teamMatesSelect)
   findATeamMateEvent(teamData, currentUser, teamMatesSelect)
